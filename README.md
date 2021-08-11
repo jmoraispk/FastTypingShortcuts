@@ -24,7 +24,7 @@ AutoHotKey:
 
 KeyRate:
   1. Open a cmd in this directory. To open the command prompt in Windows search cmd in the main menu. To navigate, 
-  2- Writee: KEYRATE 150 20 
+  2- Write: ```KEYRATE 150 20 ```
      For 150ms repeat delay, and 20ms of interval between key repeats when the key is pressed.
      
 # To make it stick to your Windows
@@ -35,9 +35,9 @@ AutoHotKey:
   1. Comes with compiler. Simply right-click the script and choose "Compile script".
 
 KeyRate:
-  1. Write the following code in a .ps1 script: 
+  1. Write the following code in a .ps1 script (but change to your own path to this repository): 
   ```
-  cd 'C:\Users\Morais\Documents\Tools\GOOD KEYS on windows\'
+  cd 'C:\Users\Morais\Documents\Tools\ProductivityOnWindows\'
   .\keyrate.exe 170 17
   ```
   2. Use Win-PS2EXE.exe to compile it.
