@@ -35,6 +35,10 @@ RAlt & ç::
 Send {Delete}
 return
 
+ç::
+Send {U+00E7}
+return
+
 ;Ralt + a results in SHIFT + Home. 
 ;The + modifier means keeping shift pressed. ^ is for control.
 ;See Modifier Keys in https://www.autohotkey.com/docs/KeyList.htm.
