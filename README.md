@@ -1,5 +1,5 @@
 # ProductivityOnWindows
-Common-sense-based programs and methods to improve productivity in Windows machines.
+Some methods to improve productivity in Windows machines.
 
 # Programs
 
@@ -28,7 +28,7 @@ KeyRate:
      For 150ms repeat delay, and 20ms of interval between key repeats when the key is pressed.
      
 # To make it stick to your Windows
-So you don't need to execute the scripts every time you restart the computer, you have to create executables that are started when Windows starts. 
+This way you don't need to execute the scripts every time you restart the computer. You create executables that are started when Windows starts and then add those executables to the "startup" tab in the task manager. 
 Here is how to compile scripts:
 
 AutoHotKey:
