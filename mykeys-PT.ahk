@@ -73,3 +73,14 @@ return
 LAlt & Space::
 CoordMode, Mouse, Screen
 MouseMove, A_ScreenWidth/2, A_ScreenHeight/2, 0
+
+; In US keyboards, the <> keys are not in the same place as the PT keyboard. 
+; To use the PT layout, these keys are remapped, respectively, to Alt + , and .
+
+RAlt & ,::
+Send {<}
+return
+
+RAlt & .::
+Send {>}
+return
