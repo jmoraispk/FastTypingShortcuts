@@ -1,0 +1,29 @@
+keycode 108 = Mode_switch
+
+! Arrows
+keysym j = j J Left
+keysym l = l L Right
+keysym i = i I Up
+keysym k = k K Down
+
+! Home and End
+keysym u = u U Home
+keysym o = o O End
+
+! Delete key
+keycode 47 = ccedilla Ccedilla Delete
+
+! Greater and Smaller signs mapped to Alt + , and Alt + .
+keycode 59 = comma semicolon less
+keycode 60 = period colon greater
+
+
+
+
+! Single Shift Modifiers (Shift + Home and Shift + End)
+keysym a = a A
+keysym f = f F
+
+! Ctrl+Shift Modifiers (Ctrl + Shift + Left and Ctrl + Shift + Right)
+!keysym a = a A 
+!keysym f = f F
