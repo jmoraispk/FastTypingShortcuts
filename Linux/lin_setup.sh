@@ -37,13 +37,14 @@ cp xmodmap.desktop ~/.config/autostart
 # NOT DONE YET!
 # Try:
 # Option 1: these 2 together:
+# 	xbindkeys
+# 	https://askubuntu.com/questions/254424/how-can-i-change-what-keys-on-my-keyboard-do-how-can-i-create-custom-keyboard/254425#254425
 # 	https://askubuntu.com/questions/85850/how-to-remap-a-key-combination-to-a-single-key
 # 	https://askubuntu.com/questions/834650/remap-a-key-combination-to-another-combination-e-g-superctrlshiftj-ctrl
 
 # Option 2:
-#  https://askubuntu.com/questions/5095/typing-using-key-combinations
-
-# Option 3:
 # AutoKey: https://askubuntu.com/questions/251479/how-to-bind-ctrlarrows-to-home-and-end-keys-xmodmap-does-not-work/303978#303978
+
+sudo apt-get install -y xbindkeys
 
 
