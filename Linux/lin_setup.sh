@@ -14,6 +14,9 @@ echo "Warning! Execute this script in its directory!"
 # DEBUG: execute at startup. Note, you can execute ./xmodmap.sh to test 
 #        whether the keybindings are working.
 
+# keycode is the code the key raises when pressed. keysyum is just a 
+# link from a name to an actual function.
+
 # See more keysyms here:
 # https://wiki.linuxquestions.org/wiki/List_of_keysyms
 # https://wiki.linuxquestions.org/wiki/List_of_Keysyms_Recognised_by_Xmodmap
@@ -27,3 +30,20 @@ cp xmodmap.desktop ~/.config/autostart
 
 # Part 2: when we want to do map to Alt + ... key combinations like 
 #         Shift + ... or Ctrl + Shift + ..., 
+
+# xmodmap does not work for this because are existing keys on the 
+# keyboard, not modified keys
+
+# NOT DONE YET!
+# Try:
+# Option 1: these 2 together:
+# 	https://askubuntu.com/questions/85850/how-to-remap-a-key-combination-to-a-single-key
+# 	https://askubuntu.com/questions/834650/remap-a-key-combination-to-another-combination-e-g-superctrlshiftj-ctrl
+
+# Option 2:
+#  https://askubuntu.com/questions/5095/typing-using-key-combinations
+
+# Option 3:
+# AutoKey: https://askubuntu.com/questions/251479/how-to-bind-ctrlarrows-to-home-and-end-keys-xmodmap-does-not-work/303978#303978
+
+
