@@ -26,7 +26,7 @@ chmod +x xmodmap.sh
 mkdir ~/.config/autostart
 chmod +x xmodmap.desktop
 cp xmodmap.desktop ~/.config/autostart
-
+./xmodmap.sh
 
 # Part 2: when we want to do map to Alt + ... key combinations like 
 #         Shift + ... or Ctrl + Shift + ..., 
@@ -45,6 +45,6 @@ cp xmodmap.desktop ~/.config/autostart
 # Option 2:
 # AutoKey: https://askubuntu.com/questions/251479/how-to-bind-ctrlarrows-to-home-and-end-keys-xmodmap-does-not-work/303978#303978
 
-sudo apt-get install -y xbindkeys
+!sudo apt-get install -y xbindkeys
 
 
