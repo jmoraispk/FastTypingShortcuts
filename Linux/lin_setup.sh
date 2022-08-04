@@ -26,6 +26,7 @@ chmod +x xmodmap.sh
 mkdir ~/.config/autostart
 chmod +x xmodmap.desktop
 cp xmodmap.desktop ~/.config/autostart
+cp .xmodmap ~
 ./xmodmap.sh
 
 # Part 2: when we want to do map to Alt + ... key combinations like 
