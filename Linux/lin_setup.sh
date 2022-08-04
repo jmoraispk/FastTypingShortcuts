@@ -26,6 +26,7 @@ chmod +x xmodmap.sh
 mkdir ~/.config/autostart
 chmod +x xmodmap.desktop
 cp xmodmap.desktop ~/.config/autostart
+cp xmodmap.sh ~
 cp .xmodmap ~
 ./xmodmap.sh
 
