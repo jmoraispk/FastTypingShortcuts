@@ -47,6 +47,6 @@ cp .xmodmap ~
 # Option 2:
 # AutoKey: https://askubuntu.com/questions/251479/how-to-bind-ctrlarrows-to-home-and-end-keys-xmodmap-does-not-work/303978#303978
 
-!sudo apt-get install -y xbindkeys
+# !sudo apt-get install -y xbindkeys
 
 
