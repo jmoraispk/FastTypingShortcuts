@@ -16,3 +16,6 @@ keycode 47 = ccedilla Ccedilla Delete
 ! Greater and Smaller signs mapped to Alt + , and Alt + .
 keycode 59 = comma semicolon less
 keycode 60 = period colon greater
+
+! @ for 2, because it sometimes isn't
+keycode 11 = 2 quotedbl at
