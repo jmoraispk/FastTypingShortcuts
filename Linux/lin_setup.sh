@@ -16,6 +16,7 @@ echo "Warning! Execute this script in its directory!"
 
 # keycode is the code the key raises when pressed. keysyum is just a 
 # link from a name to an actual function.
+# to find keycodes, execude "xev" on the terminal
 
 # See more keysyms here:
 # https://wiki.linuxquestions.org/wiki/List_of_keysyms
@@ -30,23 +31,27 @@ cp xmodmap.sh ~
 cp .xmodmap ~
 ./xmodmap.sh
 
+# Seting up keyrate
+# 170 ms between key repetitions, 59 repetitions per second ~ 17ms between repetitions
+# the command is in x
+# xset r rate 170 59 # (IT's IN xmodmap.sh by default!)
+# TODO: in the future, put here and append automatically - that way, all parameters are in
+# the same file.
+
+
 # Part 2: when we want to do map to Alt + ... key combinations like 
 #         Shift + ... or Ctrl + Shift + ..., 
 
 # xmodmap does not work for this because are existing keys on the 
 # keyboard, not modified keys
 
-# NOT DONE YET!
-# Try:
-# Option 1: these 2 together:
-# 	xbindkeys
-# 	https://askubuntu.com/questions/254424/how-can-i-change-what-keys-on-my-keyboard-do-how-can-i-create-custom-keyboard/254425#254425
-# 	https://askubuntu.com/questions/85850/how-to-remap-a-key-combination-to-a-single-key
-# 	https://askubuntu.com/questions/834650/remap-a-key-combination-to-another-combination-e-g-superctrlshiftj-ctrl
-
-# Option 2:
 # AutoKey: https://askubuntu.com/questions/251479/how-to-bind-ctrlarrows-to-home-and-end-keys-xmodmap-does-not-work/303978#303978
 
-# !sudo apt-get install -y xbindkeys
+# Other stuff tried that didn't work:
+# - espanso
+# - AHK on wine (with and without winetricks)
+# - Python, except:
+# https://unix.stackexchange.com/questions/696526/a-simple-global-keyboard-shortcut-handler
+# - xbindkeys with xkvbd is too slow and unreliable.
 
-
+# AHK for Linux (not there yet..)  https://github.com/phil294/AHK_X11
