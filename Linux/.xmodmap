@@ -19,3 +19,7 @@ keycode 60 = period colon greater
 
 ! @ for 2, because it sometimes isn't
 keycode 11 = 2 quotedbl at
+
+! {} for 7 and 0 keys
+keycode 16 = 7 slash braceleft
+keycode 19 = 0 equal braceright

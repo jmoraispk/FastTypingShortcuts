@@ -24,9 +24,11 @@ echo "Warning! Execute this script in its directory!"
 
 sudo apt install -y xcape
 chmod +x xmodmap.sh
-mkdir ~/.config/autostart
+AUTOSTART_DIR=~/.config/autostart
+# check if directory already exists and create if it doesn't.
+mkdir -p $AUTOSTART_DIR
 chmod +x xmodmap.desktop
-cp xmodmap.desktop ~/.config/autostart
+cp xmodmap.desktop AUTOSTART_DIR
 cp xmodmap.sh ~
 cp .xmodmap ~
 ./xmodmap.sh
