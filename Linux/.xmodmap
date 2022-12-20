@@ -23,3 +23,5 @@ keycode 11 = 2 quotedbl at
 ! {} for 7 and 0 keys
 keycode 16 = 7 slash braceleft
 keycode 19 = 0 equal braceright
+keycode 17 = 8 parenleft bracketleft
+keycode 18 = 9 parenright bracketright
